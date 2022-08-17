@@ -1,0 +1,43 @@
+/* styling starts here */
+/* universal selector styling  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* styling to class container */
+.container{
+    width:100vw;
+    height:100vh;
+    background-image: url("dice.jpg");
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* styling to h1 heading tag */
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 10px rgba(242, 235, 235, 0.4); 
+}
+/* styling to class box */
+.box{
+    width:30%;
+    height:70%;
+    border:1px solid black; 
+    background-color: rgb(4, 4, 99);
+    box-shadow:  5px 5px 5px lightblue;
+    border-radius: 5px;
+    border: none;
+     
+    
+}
+/* styling to dice class */
+.dice{
+    font-size:250px;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(231, 225, 225);
+}
+/* styling ends here */
